@@ -1,2 +1,2 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/161370/rep/main/script", true))() -- starter
-if game.PlaceId == 4581966615 then -- anomic
+loadstring(game:HttpGet("https://raw.githubusercontent.com/161370/rep/main/mainS", true))() -- starter
+if game.PlaceId == 301549746 then -- cb
