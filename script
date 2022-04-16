@@ -1,2 +1,2 @@
-loadstring(game:HttpGet("https://github.com/161370/161370/script/main", true))() -- starter
+loadstring(game:HttpGet("https://github.com/161370/rep/blob/main/script", true))() -- starter
 if game.PlaceId == 4581966615 then -- anomic
