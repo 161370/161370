@@ -1,3 +1,2 @@
-if game.PlaceId == 4581966615 then -- anomic
-
 loadstring(game:HttpGet("https://github.com/161370/161370/script/main", true))() -- starter
+if game.PlaceId == 4581966615 then -- anomic
