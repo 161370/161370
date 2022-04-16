@@ -18,7 +18,7 @@ Hint.Text = "Hexagon | Waiting for the game to load..."
 repeat wait() until game:IsLoaded()
 repeat wait() until LocalPlayer.PlayerGui:FindFirstChild("GUI")
 
-Hint.Text = "Hexagon | Setting up environment..."
+Hint.Text = "PornHub | Setting up environment..."
 
 -- Environment 
 local getrawmetatable = getrawmetatable or false
@@ -37,14 +37,14 @@ if (hookfunc == false) then return LocalPlayer:Kick("Exploit not supported! Miss
 
 Hint.Text = "Hexagon | Setting up configuration settings..."
 
-if not isfolder("hexagon") then
-	print("creating hexagon folder")
-	makefolder("hexagon")
+if not isfolder("hpornhub") then
+	print("creating pornhub folder")
+	makefolder("pornhub")
 end
 
-if not isfolder("hexagon/configs") then
+if not isfolder("pornhub/configs") then
 	print("creating hexagon configs folder")
-	makefolder("hexagon/configs")
+	makefolder("pornhub/configs")
 end
 
 if not isfile("hexagon/autoload.txt") then
@@ -76,7 +76,7 @@ if not isfile("hexagon/skyboxes.txt") then
 	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
 end
 
-Hint.Text = "Hexagon | Loading..."
+Hint.Text = "pornhub | Loading..."
 
 -- Main
 local WeaponsData = ReplicatedStorage.Weapons
@@ -1246,7 +1246,7 @@ MiscellaneousTabCategoryMain:AddToggle("Kill All", false, "MiscellaneousTabCateg
 						local Arguments = {
 							[1] = v.Character.Head,
 							[2] = v.Character.Head.Position,
-							[3] = "Banana",
+							[3] = "pornhub",
 							[4] = 100,
 							[5] = LocalPlayer.Character.Gun,
 							[8] = 100,
@@ -1275,7 +1275,7 @@ MiscellaneousTabCategoryMain:AddToggle("Kill Enemies", false, "MiscellaneousTabC
 						local Arguments = {
 							[1] = v.Character.Head,
 							[2] = v.Character.Head.Position,
-							[3] = "Banana",
+							[3] = "pornhub",
 							[4] = 100,
 							[5] = LocalPlayer.Character.Gun,
 							[8] = 100,
