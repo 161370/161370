@@ -1,0 +1,222 @@
+local ben = Instance.new("ScreenGui")
+local man = Instance.new("Frame")
+local drag = Instance.new("Frame")
+local fuckingshitlabel = Instance.new("TextLabel")
+local fly = Instance.new("TextButton")
+local noclip = Instance.new("TextButton")
+local reset = Instance.new("TextButton")
+local tptool = Instance.new("TextButton")
+local byeC = Instance.new("TextButton")
+local credit = Instance.new("TextLabel")
+local aboutfly = Instance.new("TextLabel")
+local abouttp = Instance.new("TextLabel")
+local aboutreset = Instance.new("TextLabel")
+local aboutnoclip = Instance.new("TextLabel")
+local flushed = Instance.new("TextButton")
+
+--Properties:
+
+ben.Name = "ben"
+ben.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ben.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+man.Name = "man"
+man.Parent = ben
+man.Active = true
+man.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+man.BorderSizePixel = 0
+man.Position = UDim2.new(0.209733486, 0, 0.0818030238, 0)
+man.Size = UDim2.new(0, 500, 0, 500)
+man.Active = true
+man.Draggable = true
+
+drag.Name = "drag"
+drag.Parent = man
+drag.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+drag.BorderColor3 = Color3.fromRGB(10, 10, 10)
+drag.BorderSizePixel = 0
+drag.Position = UDim2.new(-0.000266507268, 0, -0.000197000802, 0)
+drag.Size = UDim2.new(0, 500, 0, 50)
+
+fuckingshitlabel.Name = "fucking shit label"
+fuckingshitlabel.Parent = man
+fuckingshitlabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fuckingshitlabel.BackgroundTransparency = 1.000
+fuckingshitlabel.Position = UDim2.new(-0.000266507268, 0, -0.000197000802, 0)
+fuckingshitlabel.Size = UDim2.new(0, 500, 0, 50)
+fuckingshitlabel.Font = Enum.Font.GothamBlack
+fuckingshitlabel.Text = "trashy gui but it works"
+fuckingshitlabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+fuckingshitlabel.TextSize = 14.000
+fuckingshitlabel.TextWrapped = true
+
+fly.Name = "fly"
+fly.Parent = man
+fly.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+fly.BorderSizePixel = 0
+fly.Position = UDim2.new(0.10186094, 0, 0.180647746, 0)
+fly.Size = UDim2.new(0, 80, 0, 80)
+fly.Font = Enum.Font.GothamBlack
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextSize = 14.000
+function onClicked(clicked)
+	loadstring(game:HttpGet("https://pastebin.com/raw/ezkpQLf4", true))()
+end
+script.Parent.MouseButton1Click:connect(onClicked)
+
+noclip.Name = "noclip"
+noclip.Parent = man
+noclip.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+noclip.BorderSizePixel = 0
+noclip.Position = UDim2.new(0.73943913, 0, 0.180647746, 0)
+noclip.Size = UDim2.new(0, 80, 0, 80)
+noclip.Font = Enum.Font.GothamBlack
+noclip.Text = "Noclip"
+noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+noclip.TextSize = 14.000
+function onClicked(clicked)
+	loadstring(game:HttpGet("https://pastebin.com/raw/JFgLMh5s", true))()
+end
+script.Parent.MouseButton1Click:connect(onClicked)
+
+reset.Name = "reset"
+reset.Parent = man
+reset.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+reset.BorderSizePixel = 0
+reset.Position = UDim2.new(0.521070659, 0, 0.180647746, 0)
+reset.Size = UDim2.new(0, 80, 0, 80)
+reset.Font = Enum.Font.GothamBlack
+reset.Text = "Reset"
+reset.TextColor3 = Color3.fromRGB(255, 255, 255)
+reset.TextSize = 14.000
+function onClicked(clicked)
+	loadstring(game:HttpGet("https://pastebin.com/raw/3fRWWgp1", true))()
+end
+
+tptool.Name = "tp tool"
+tptool.Parent = man
+tptool.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+tptool.BorderSizePixel = 0
+tptool.Position = UDim2.new(0.318465829, 0, 0.180647746, 0)
+tptool.Size = UDim2.new(0, 80, 0, 80)
+tptool.Font = Enum.Font.GothamBlack
+tptool.Text = "TP Tool"
+tptool.TextColor3 = Color3.fromRGB(255, 255, 255)
+tptool.TextSize = 14.000
+function onClicked(clicked)
+	loadstring(game:HttpGet("https://pastebin.com/raw/wtxtBN0g", true))()
+end
+
+byeC.Name = "bye :C"
+byeC.Parent = man
+byeC.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+byeC.BorderSizePixel = 0
+byeC.Position = UDim2.new(0.925999999, 0, 0.0180000011, 0)
+byeC.Size = UDim2.new(0, 30, 0, 30)
+byeC.Font = Enum.Font.GothamBlack
+byeC.Text = "X"
+byeC.TextColor3 = Color3.fromRGB(255, 255, 255)
+byeC.TextSize = 14.000
+
+credit.Name = "credit"
+credit.Parent = man
+credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit.BackgroundTransparency = 1.000
+credit.Position = UDim2.new(0.85373348, 0, 0.899802983, 0)
+credit.Size = UDim2.new(0, 73, 0, 50)
+credit.Font = Enum.Font.GothamBlack
+credit.Text = "by cool pro true gamer"
+credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+credit.TextSize = 14.000
+credit.TextWrapped = true
+
+aboutfly.Name = "about fly"
+aboutfly.Parent = man
+aboutfly.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+aboutfly.BorderSizePixel = 0
+aboutfly.Position = UDim2.new(0.101860963, 0, 0.361802995, 0)
+aboutfly.Size = UDim2.new(0, 80, 0, 43)
+aboutfly.Font = Enum.Font.GothamBlack
+aboutfly.Text = "Press E to fly"
+aboutfly.TextColor3 = Color3.fromRGB(255, 255, 255)
+aboutfly.TextSize = 14.000
+aboutfly.TextWrapped = true
+
+abouttp.Name = "about tp"
+abouttp.Parent = man
+abouttp.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+abouttp.BorderSizePixel = 0
+abouttp.Position = UDim2.new(0.317860961, 0, 0.361802995, 0)
+abouttp.Size = UDim2.new(0, 80, 0, 43)
+abouttp.Font = Enum.Font.GothamBlack
+abouttp.Text = "Click any where with tool equipped"
+abouttp.TextColor3 = Color3.fromRGB(255, 255, 255)
+abouttp.TextSize = 14.000
+abouttp.TextWrapped = true
+
+aboutreset.Name = "about reset"
+aboutreset.Parent = man
+aboutreset.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+aboutreset.BorderSizePixel = 0
+aboutreset.Position = UDim2.new(0.519860983, 0, 0.361802995, 0)
+aboutreset.Size = UDim2.new(0, 80, 0, 43)
+aboutreset.Font = Enum.Font.GothamBlack
+aboutreset.Text = "Just click this button"
+aboutreset.TextColor3 = Color3.fromRGB(255, 255, 255)
+aboutreset.TextSize = 14.000
+aboutreset.TextWrapped = true
+
+aboutnoclip.Name = "about noclip"
+aboutnoclip.Parent = man
+aboutnoclip.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+aboutnoclip.BorderSizePixel = 0
+aboutnoclip.Position = UDim2.new(0.737860978, 0, 0.361802995, 0)
+aboutnoclip.Size = UDim2.new(0, 80, 0, 43)
+aboutnoclip.Font = Enum.Font.GothamBlack
+aboutnoclip.Text = "Press Q to noclip"
+aboutnoclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+aboutnoclip.TextSize = 14.000
+aboutnoclip.TextWrapped = true
+
+flushed.Name = ":flushed:"
+flushed.Parent = ben
+flushed.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+flushed.BorderColor3 = Color3.fromRGB(27, 42, 53)
+flushed.BorderSizePixel = 0
+flushed.Position = UDim2.new(0.0296987258, 0, 0.456999987, 0)
+flushed.Size = UDim2.new(0, 50, 0, 50)
+flushed.Font = Enum.Font.GothamBlack
+flushed.Text = "Open"
+flushed.TextColor3 = Color3.fromRGB(255, 255, 255)
+flushed.TextSize = 14.000
+
+-- Scripts:
+
+local function ACLD_fake_script() -- fly.fly 
+	local script = Instance.new('LocalScript', fly)
+
+	function onClicked(clicked)
+		
+	end
+	script.Parent.MouseButton1Click:connect(onClicked)
+end
+coroutine.wrap(ACLD_fake_script)()
+local function UOQAYMI_fake_script() -- byeC.click shit 
+	local script = Instance.new('LocalScript', byeC)
+
+	function onClicked(clicked)
+		script.Parent.Parent.Parent.man.Visible = false
+	end
+	script.Parent.MouseButton1Click:connect(onClicked)
+end
+coroutine.wrap(UOQAYMI_fake_script)()
+local function AUELZ_fake_script() -- flushed.click shit 
+	local script = Instance.new('LocalScript', flushed)
+
+	function onClicked(clicked)
+		script.Parent.Parent.man.Visible = true
+	end
+	script.Parent.MouseButton1Click:connect(onClicked)
+end
+coroutine.wrap(AUELZ_fake_script)()
