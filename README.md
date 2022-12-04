@@ -1,3 +1,1 @@
-Hi, I’m 161370
-I’m interested in scripting
-I’m currently learning LUA
+![4p9p4o]()
